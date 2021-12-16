@@ -1,5 +1,6 @@
 # odin-landing-page
 Second project focused on using CSS
+
 Images credits: 
 
 https://www.pexels.com/pl-pl/zdjecie/pies-trawnik-psy-zwierzeta-domowe-3631659/ 
