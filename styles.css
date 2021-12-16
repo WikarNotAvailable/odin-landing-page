@@ -1,0 +1,183 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.top,
+.second,
+.third,
+.fourth,
+.footer {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.top {
+    background-color: #1F2937;
+    flex: 1;
+}
+.second {
+    background-color: white;
+    flex: 1;
+}
+.third {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+.fourth {
+    background-color: white;
+    flex: 1;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.884);
+}
+.top ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding:0;
+}
+.top ul #right {
+    margin-left: auto;
+}
+.top ul a {
+    color: gray;
+    text-decoration: none;
+}
+.top ul #logo a {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight:bold;
+}
+.top .under {
+    display:flex;
+}
+.top .under header h1 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #F9FAF8;
+    width: 300px;
+    margin-bottom:0px;
+    margin-top: 100px;
+    line-height: 50px;
+}
+.top .under header p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.top .placeholder {
+    display:flex;
+    margin-left: auto;
+    margin-top: 100px;
+    width:400px;
+    height:170px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.top button {
+    background-color: rgb(37, 133, 241);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    padding: 5px 20px 5px 20px;
+}
+.top button a {
+    text-decoration: none;
+    color:white;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second .naming {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+}
+.images {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.second .image {
+    width: 150px;
+    height:150px;
+    border: 2px;
+    border-color: blue;
+    border-style:solid;
+    border-radius: 8px;
+}
+.second .caption {
+    text-align: center;
+    width: 150px;
+}
+.third figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third blockquote {
+
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+}
+.third figcaption {
+    display: flex;
+    margin-left: auto;
+    margin-right: 170px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.fourth {
+    display: flex;
+    justify-content: center;
+}
+.fourth .signing {
+    display: flex;
+    height: 100px;
+    width:1100px;
+    background-color: rgb(52, 140, 241);
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin: 90px 0px 90px 0px;
+    border-radius: 8px;
+}
+.fourth .signing #statement1 {
+    color:white;
+    font-weight:700;
+    font-size: 20px;
+}
+.fourth .signing #statement2 {
+    color:rgba(235, 229, 229, 0.884);
+}
+.fourth button {
+    border-color: white;
+    border-width: thin;
+    background-color: rgb(52, 140, 241);
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+}
+.fourth button a{
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    padding: 30px 0px 30px 0px;
+}
